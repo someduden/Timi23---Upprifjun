@@ -1,0 +1,25 @@
+.post-card {
+    border-radius: 12px;
+}
+
+.post-card-link {
+  display: block;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  transition: transform 150ms ease, box-shadow 150ms ease, background-color 150ms ease, border-color 150ms ease;
+  cursor: pointer;
+}
+ 
+.post-card-link:hover {
+  transform: translateY(-2px);
+  background: rgba(100, 108, 255, 0.08);
+  border-color: rgba(100, 108, 255, 0.35);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+ 
+.post-card-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.35);
+}
